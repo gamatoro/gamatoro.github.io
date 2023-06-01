@@ -534,9 +534,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
     br.addEventListener('click', brightness);
     res.addEventListener('click', resetAll);
     inv.addEventListener('click', invert);
-
-
-    window.addEventListener('load', function () {
-        alert("It's loaded!")
-      })
 });
