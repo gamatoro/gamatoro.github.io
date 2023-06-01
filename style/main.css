@@ -1,0 +1,161 @@
+/* Set styles for the entire webpage */
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Use a specific font family for all elements */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* All the elements on page */
+body{
+    background-color: #1b1b1b; /* Set the background color of the body */
+    text-align: center; /* Center align the text within the body */
+    color: white; /* Set the text color to white */
+}
+
+/* Is used to increase the hit area of a button or to read text out loud */
+label{
+    color: white;
+}
+
+/* Define styles for copyright logo */
+#logotip{
+    display: inline-block; /* Display the logo as an inline block element */
+}
+
+/* Define styles for canvas (right picture) */ 
+#canvasImage{
+    border: 0px solid black; /* Set a black solid border with 0 width for the canvas image */
+}
+
+/* Define styles for buttons */
+.buttons{
+    width: 180px; /* Set the width of buttons */
+    height: 35px; /* Set the height of buttons */
+    line-height: 0px; /* Remove line-height from buttons */
+}
+
+/* Define styles for button text */
+.buttonsText{
+    font-size: 16px; /* Set the font size of the button text */
+    margin-bottom: 30%; /* Set the bottom margin of the button text */
+}
+
+/* Define hover effect for buttons */
+.buttons:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+/* Define styles for input fields */
+input{
+    width: 80px;
+    height: 35px;
+    caret-color: transparent; /* Set the caret color of input fields to transparent */
+}
+
+/* Define styles for text input fields */
+input[type="text"]
+{
+    font-size: 16px;
+}
+
+/* Define styles for the element with id: "inputImageSelector" */
+#inputImageSelector{
+    width: 100px;
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    overflow: hidden; /* Hide any content that overflows the navbar */
+    background-color: #333;
+}
+
+/* Styles for the navigation bar links */
+.navbar a {
+    float: left; /* Float the navbar links to the left */
+    font-size: 16px;
+    color: white; /* Set the text color of the navbar links */
+    text-align: center;
+    padding: 14px 16px; /* Set the padding of the navbar links */
+    text-decoration: none; /* Remove underline decoration from the navbar links */
+}
+
+/* Styles for dropdown menus */
+.dropdown {
+    float: left;
+    overflow: hidden; /* Hide any content that overflows the dropdown menus */
+}
+
+/* Styles for the dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none; /* Remove the outline of the dropdown button */
+    color: white;
+    padding: 14px 16px; /* Set the padding of the dropdown button */
+    background-color: inherit; /* Inherit the background color of the parent element */
+    font-family: inherit; /* Inherit the font family of the parent element */
+    margin: 0; /* Remove the margin of the dropdown button */
+}
+
+/* Styles for the hover effect on navigation bar links and dropdown buttons */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff39bd;
+}
+
+/* Styles for the dropdown content */
+.dropdown-content {
+    display: none; /* Hide the dropdown content by default */
+    position: absolute; /* Set the position of the dropdown content to absolute */
+    background-color: #f789d2; /* Set the background color of the dropdown content */
+    min-width: 160px; /* Set the minimum width of the dropdown content */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a box shadow to the dropdown content */
+    z-index: 1; /* Set the z-index of the dropdown content */
+}
+
+/* Styles for the histogram container */
+#hist {
+    background-color: white; /* Set the background color of the histogram container */
+    max-width: 500px; /* Set the maximum width of the histogram container */
+    max-height: 250px; /* Set the maximum height of the histogram container */
+    display: table; /* Display the histogram container as a table */
+    margin: 0 auto; /* Center align the histogram container */
+}
+
+/* Styles for the histogram element */
+#HistogramID {
+    width: 800px; /* Set the width of the histogram element */
+    height: 800px; /* Set the height of the histogram element */
+    display: inline-block; /* Display the histogram element as an inline-block */
+    height: 250px; /* Set the height of the histogram element */
+}
+
+/* Styles for the dropdown menu items */
+.dropdown-content a {
+    float: none; /* Remove the float of the dropdown menu items */
+    color: black; /* Set the text color of the dropdown menu items */
+    padding: 12px 16px; /* Set the padding of the dropdown menu items */
+    text-decoration: none; /* Remove underline decoration from the dropdown menu items */
+    display: block; /* Display the dropdown menu items as blocks */
+    text-align: left; /* Left align the text within the dropdown menu items */
+}
+
+/* Styles for the hover effect on dropdown menu items */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Styles for displaying the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block; /* Display the dropdown content on hover */
+}
+
+/* Styles for the loader container */
+.loader-container {
+    width: 100%; /* Set the width of the loader container */
+    height: 100vh; /* Set the height of the loader container */
+    display: flex; /* Display the loader container as a flex container */
+    justify-content: center; /* Center align the content horizontally within the loader container */
+    align-items: center; /* Center align the content vertically within the loader container */
+    position: fixed; /* Set the position of the loader container to fixed */
+    background: #FFF; /* Set the background color of the loader container */
+    z-index: 1; /* Set the z-index of the loader container */
+}
