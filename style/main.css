@@ -141,7 +141,7 @@ input[type="text"] {
     /* Set the z-index of the dropdown content */
 }
 
-/* Styles for the histogram */
+/* Styles for the element with id: "hist" */
 #hist {
     background-color: white;
     /* Set the background color of the histogram container */
@@ -155,7 +155,7 @@ input[type="text"] {
     /* Center align the histogram container */
 }
 
-/* Styles for the histogram element */
+/* Styles for the element with id: "HistogramID" */
 #HistogramID {
     width: 800px;
     /* Set the width of the histogram element */
