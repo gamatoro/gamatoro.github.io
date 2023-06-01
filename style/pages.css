@@ -1,0 +1,61 @@
+/* Set global styles for all elements */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Apply preferred font family to all elements */
+    box-sizing: border-box;
+    /* Include border and padding within the total width and height of elements */
+}
+
+/* Styles for the body element */
+body {
+    background-color: #1b1b1b;
+    /* Set dark background color for the page */
+    text-align: center;
+    /* Center align the text within the body */
+    color: white;
+    /* Set text color to white for better visibility */
+}
+
+/* Styles for the pre element */
+pre {
+    text-align: left;
+    /* Align the text within the pre element to the left */
+}
+
+/* Styles for the p element */
+p {
+    position: relative;
+    /* Position the p element relative to its normal position */
+    bottom: 0;
+    /* Position the p element at the bottom of its container */
+}
+
+/* Styles for the element with id: "copyright" */
+#copyright {
+    position: fixed;
+    /* Fix the position of the element on the screen */
+    text-align: center;
+    /* Center align the text within the element */
+    bottom: 0;
+    /* Position the element at the bottom of its container */
+    width: 100%;
+    /* Set the width of the element to occupy the full width */
+}
+
+/* Styles for anchor (link) elements */
+a {
+    color: white;
+    /* Set text color of anchor elements to white */
+}
+
+/* Styles for div elements */
+div {
+    display: flex;
+    /* Display the div element as a flex container */
+    flex-direction: column;
+    /* Arrange the child elements in a column */
+    justify-content: center;
+    /* Center align the content vertically within the div */
+    align-items: center;
+    /* Center align the content horizontally within the div */
+}
